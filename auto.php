@@ -14,8 +14,7 @@
     <div id="panellewy">
     <h2>Wykaz samochodów</h2>
         
-        
-        <?php
+       <?php
         
   $serwer = 'localhost';
   $login = 'root';
@@ -33,15 +32,12 @@
             echo "</li>";
             echo "</ul>";
         }
-        
-        
          mysqli_close($do_bazy);
         ?>
         
-       <h2>Zamówienia</h2>         
-    
-
-      <?php  
+       <h2>Zamówienia</h2> 
+        
+       <?php  
         $baza=mysqli_connect('localhost','root','','Komis');
         if(mysqli_connect_errno())
         {echo"wystapil blad polacxzenia z baza";}
@@ -74,11 +70,8 @@
         }
         mysqli_close($baza);
         ?>
-        
-        
-        
-        
-    </div>
+  
+   </div>
     <div id="stopka">
     <table>
     <tr>
