@@ -23,8 +23,6 @@
     font-size: 150%;
     text-align: center;
     clear: both;
-    
-
 }
 table{
     width: 100%;
@@ -35,4 +33,5 @@ a:link{
 a:hover{
     color: green;
 }
-table{ width: 100%;}
+table{ width: 100%;
+}
